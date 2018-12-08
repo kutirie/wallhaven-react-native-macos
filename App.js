@@ -55,7 +55,7 @@ export default class App extends Component {
           onLoadEnd={() => this.setState({
             nameButton: 'Get random picture'
           })}
-          style={{width: '100%', height: '90%'}}
+          style={{width: '100%', height: '85%'}}
           resizeMode="center"
         />
         <Button
