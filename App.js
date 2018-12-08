@@ -31,7 +31,7 @@ export default class App extends Component {
   }
 
   generateUrl() {
-    this.addUrl(this.getRandomArbitary(0, 700000));
+    this.addUrl(this.getRandomArbitary(0, 720000));
   }
 
   addUrl(newurl) {
