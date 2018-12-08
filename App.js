@@ -44,10 +44,6 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Wallhaven test app [kutirie]
-        </Text>
-        
         <Image
           source={{
             uri: 'https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-' + this.state.imageUrls[this.state.imageUrls.length - 1] + '.jpg',
@@ -59,7 +55,8 @@ export default class App extends Component {
           onLoadEnd={() => this.setState({
             nameButton: 'Get random picture'
           })}
-          style={{width: '100%', height: '80%'}}
+          style={{width: '100%', height: '90%'}}
+          resizeMode="center"
         />
         <Button
           onPress={this.generateUrl}
