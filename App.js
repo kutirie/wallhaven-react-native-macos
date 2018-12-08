@@ -64,6 +64,7 @@ export default class App extends Component {
           color="#841584"
           style={{width: 250, padding: 20, fontSize: 15}}
         />
+        <Text>https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-{this.state.imageUrls[this.state.imageUrls.length - 1]}.jpg</Text>
       </View>
     );
   }
